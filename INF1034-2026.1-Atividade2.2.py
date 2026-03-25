@@ -523,12 +523,23 @@ for _ in range(5):
     t.fd (20)
     t.rt (144)
 t.end_fill()
+t.penup()
+t.fd(90)
+t.rt(90)
+t.fd(30)
+t.lt(90)
+t.pendown()
+t.begin_fill()
+t.color("#4169E1")
+for _ in range(5):
+    t.fd(20)
+    t.rt(72)
+    t.fd (20)
+    t.rt (144)
+t.end_fill()
 
+sleep(5)
+t.clear()
 
 
 mainloop()
-
-
-
-
-
